@@ -26,10 +26,6 @@ Before you begin, ensure you have the following installed and configured:
     ```bash
     pip install requests rich
     ```
-3.  **Make the Script Executable (Optional)**: For easier use, you can make the script directly executable:
-    ```bash
-    chmod +x k8s-doctor.py
-    ```
 
 ## Usage
 
@@ -39,10 +35,6 @@ You can run the script in two ways:
 
 ```bash
 python k8s-doctor.py --namespace my-failing-namespace
-```
-Or, if you made it executable:
-```bash
-./k8s-doctor.py -n my-failing-namespace
 ```
 
 **2. Run without arguments for an interactive prompt:**
